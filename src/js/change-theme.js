@@ -29,4 +29,6 @@ function onSetTheme(event) {
   themeSwitcher(setTheme);
 }
 
+themeSwitcher();
+
 refs.changeRef.addEventListener('change', onSetTheme);
